@@ -18,7 +18,7 @@ public class GumballMachine {
     System.out.print("Would you like a gumball (y/n)?");
     String choice = input.nextLine().toUpperCase();
     
-    switch(choice) {
+    switch (choice) {
       case "Y":
         Gumball gumball = new Gumball();
         System.out.print("You received a " + gumball + " one!");

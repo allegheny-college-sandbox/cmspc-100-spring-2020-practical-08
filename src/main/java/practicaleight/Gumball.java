@@ -15,7 +15,7 @@ public class Gumball {
    *
    */
   public Gumball() {
-    switch(random.nextInt(5) + 1) {
+    switch (random.nextInt(5) + 1) {
       case 1:
         this.color = "pink";
         break;
@@ -30,6 +30,9 @@ public class Gumball {
         break;
       case 5:
         this.color = "yellow";
+        break;
+      default:
+        break;
     }
   }
   
