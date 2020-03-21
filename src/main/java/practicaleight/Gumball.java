@@ -9,14 +9,13 @@ import java.util.Random;
 public class Gumball {
 
   private final Random random = new Random();
-  private final String color;
+  private final String color = new String();
 
   /** Constructor.
    *
    */
   public Gumball() {
-    int color = random.nextInt(5) + 1;
-    switch(color) {
+    switch(random.nextInt(5) + 1) {
       case 1:
         this.color = "pink";
         break;
