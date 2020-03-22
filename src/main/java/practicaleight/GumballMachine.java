@@ -18,7 +18,7 @@ public class GumballMachine {
     // Prompt user for choice
     System.out.print("Would you like a gumball (y/n)?");
     String choice = input.nextLine().toUpperCase();
-    // Create switch statement to handle choice
+    // Create switch statement to handle choices
     switch (choice) {
       case "Y":
         // If "Y," create a new gumball
